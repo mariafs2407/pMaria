@@ -56,6 +56,7 @@ header .contenido-header .titulo-header{
     text-align: center;
     color: #fff;
     text-align: center;
+    
 }
 
 header .contenido-header .linea-header{
@@ -137,6 +138,8 @@ main .portafolio .portafolio-textos{
     color:#2d3950;
     font-size: 20px;
 }
+
+
 
 main .portafolio .portafolio-textos p{
     color: #909090;
@@ -237,6 +240,7 @@ footer .contacto  input[type="submit"]:hover{
     height:200px;
     background: #000;
 }
+
 
 @media screen and (max-width:760px){
     header .menu{

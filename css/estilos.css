@@ -19,7 +19,7 @@ body{
 
 header{
     background-image: url('../img/portada.png');
-    height:600px;
+    height:700px;
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: cover;
@@ -35,7 +35,7 @@ header .menu a:hover{
 }
 header .menu a{
     font-size:18px;
-    font-family: 'lato';
+    font-family:"skylake";
     font-weight: 300;
     display: inline-block;
     padding:10px 0;
@@ -51,43 +51,38 @@ header .contenido-header{
     justify-content: center;
     align-content: center;
 }
-header .contenido-header .titulo-header{
+header .contenedor .contenido-header .titulo-header{
     font-size: 120px;
     text-align: center;
     color: #fff;
     text-align: center;
+    font-family:"skylake";
 }
 
 header .contenido-header .linea-header{
     width: 700px;
     margin: auto;
     height:2px;
-    background: #15a4fa;
+    background: #ffffff;
     margin-bottom:30px;
     text-align: center;
 }
 
-header .contenido-header .texto-header{
-    color:#fff;
-    font-weight: 300;
-    margin-bottom:30px;
-    font-size:20px;
-    text-align: center;
-}
 
 header .contenido-header .action-header{
     display: inline-block;
     margin: auto;
     color: #fff;   
     text-decoration: none;
-    border:1px solid #15a4fa;
+    border:1px solid #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
+    font-family:"skylake";
 }
 
 header .contenido-header .action-header:hover{
-    background: #15a4fa;
-    color: #fff;
+    background: #ffffff;
+    color: rgb(19, 2, 2);
 }
 
 main .quienes{
@@ -137,6 +132,7 @@ main .portafolio .portafolio-textos{
     color:#2d3950;
     font-size: 20px;
 }
+main .portafolio .portafolio-textos .titulo-
 
 main .portafolio .portafolio-textos p{
     color: #909090;
@@ -237,6 +233,13 @@ footer .contacto  input[type="submit"]:hover{
     height:200px;
     background: #000;
 }
+
+/* Fuente de Letra */
+@font-face{
+    font-family:"skylake" ;
+    src:url(fuentes/skylake/Skylake.otf);
+}
+
 
 @media screen and (max-width:760px){
     header .menu{
