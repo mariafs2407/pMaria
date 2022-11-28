@@ -44,7 +44,7 @@ header .menu a{
     text-decoration: none;
 }
 header .contenido-header{
-    margin:120px 0;
+    margin:160px 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -237,7 +237,7 @@ footer .contacto  input[type="submit"]:hover{
 /* Fuente de Letra */
 @font-face{
     font-family:"skylake" ;
-    src:url(fuentes/skylake/Skylake.otf);
+    src: url(fuentes/carael);
 }
 
 
