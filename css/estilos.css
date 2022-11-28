@@ -35,7 +35,7 @@ header .menu a:hover{
 }
 header .menu a{
     font-size:18px;
-    font-family:"letter" ;
+    font-family:"letterL" ;
     font-weight: 300;
     display: inline-block;
     padding:10px 0;
@@ -77,7 +77,7 @@ header .contenido-header .action-header{
     border:1px solid #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
-    font-family:"letter" ;
+    font-family:"letterL" ;
 }
 
 header .contenido-header .action-header:hover{
@@ -240,7 +240,7 @@ footer .contacto  input[type="submit"]:hover{
     src:url(fuentes/caramel\Caramel.ttf);
 }
 @font-face{
-    font-family:"letter" ;
+    font-family:"letterL" ;
     src:url(fuentes/letters/LettersLearnersLined.ttf);
 }
 
